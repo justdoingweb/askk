@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level 3</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="game-body meadow">
+  <div class="hearts" id="hearts"></div>
+  <main class="game-stage">
+    <section class="game-panel tutorial-panel">
+      <div class="hud-line">
+        <span>LEVEL 3</span>
+        <span>Memory Tutorial</span>
+      </div>
+      <div class="level-layout">
+        <div class="pixel-scene meadow-scene">
+          <div class="sun"></div>
+          <div class="cloud c1"></div>
+          <div class="cloud c2"></div>
+          <div class="hero-name">ผู้เล่นมือใหม่ Lv.3</div>
+          <button class="real-hero" type="button" aria-label="ตัวละครผู้เล่น">
+            <span class="hero-cape"></span><span class="hero-neck"></span><span class="hero-face"></span><span class="hero-hair"></span><span class="hero-ear left"></span><span class="hero-ear right"></span><span class="hero-eye left"></span><span class="hero-eye right"></span><span class="hero-brow left"></span><span class="hero-brow right"></span><span class="hero-nose"></span><span class="hero-mouth"></span><span class="hero-blush left"></span><span class="hero-blush right"></span><span class="hero-shirt"></span><span class="hero-strap"></span><span class="hero-arm left"></span><span class="hero-arm right"></span><span class="hero-hand left"></span><span class="hero-hand right"></span><span class="hero-pants"></span><span class="hero-leg left"></span><span class="hero-leg right"></span><span class="hero-boot left"></span><span class="hero-boot right"></span><span class="hero-sword"></span><span class="hero-spark one"></span><span class="hero-spark two"></span>
+          </button>
+          <div class="hero-shadow"></div>
+          <div class="speech-bubble">ตอบอย่างใดอย่างหนึ่งก็ผ่าน</div>
+        </div>
+        <div class="game-copy">
+          <p class="eyebrow">Quest 3 / เวลาว่าง</p>
+          <h1 class="title">กิจกรรมที่ชอบทำเวลาว่างคืออะไร?</h1>
+          <p class="subtitle"></p>
+          <label class="quiz-card single-quiz" data-answer="อ่านหนังสือ|เล่นเกม|อ่านหนังสือกับเล่นเกม|เล่นเกมกับอ่านหนังสือ|อ่านหนังสือเล่นเกม">
+            <span>Memory Check</span>
+            <strong>กิจกรรมเวลาว่าง</strong>
+            <input class="quiz-input" id="levelAnswer" type="text" placeholder="">
+            <small class="quiz-feedback" id="levelFeedback"></small>
+          </label>
+          <button class="game-next big-next check-quiz" id="checkAnswer" type="button">CHECK: เช็คคำตอบ</button>
+          <p class="game-caption" id="missionStatus">ตอบถูกถึงจะไปหน้าต่อไปได้</p>
+          <a class="game-next big-next locked" id="nextLink" href="./page4.html" aria-disabled="true">LOCKED: ผ่านด่านนี้ก่อน</a>
+        </div>
+      </div>
+    </section>ห
+  </main>
+  <script src="./quiz-level.js"></script>
+</body>
+</html>
